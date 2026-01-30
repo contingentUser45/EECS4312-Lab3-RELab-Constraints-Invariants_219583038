@@ -8,8 +8,7 @@ class DispenseEvent:
         "Ibuprofen": 3200,
         "Acetaminophen": 4000,
         "Amoxicillin": 3000,
-        "Lorazepam": 10,  # example controlled substance
-        # Add more medications here if desired
+        "Lorazepam": 10,
     }
     # TODO Task 3: Encode and enforce input constraints (e.g., valid dose, quantity, identifiers)
     def __init__(self, patient_id, medication, dose_mg, quantity):
