@@ -4,6 +4,12 @@ EECS4312 Winter26:Lab3
 
 # Medication Dispensing System Documentation
 
+**Student Name:** Cyrus Yang
+**Student ID:** 219583038
+**Course:** EECS 4312 Software Requirements  
+**Instructor:** Maleknaz Nayebi  
+**Term:** Winter 2026
+
 ## System Description
 
 The system is a **medication dispensing system** for a pharmacy. Its primary function is to **record each dispensing event**, capturing:
@@ -48,5 +54,14 @@ The system operates under **safety, consistency, and policy rules**, ensuring no
 | Test exceeding maximum dose | Constraint: max daily dose                               | Attempt to dispense a dose exceeding max daily limit → should be rejected                       |
 
 ---
+
+## Files in this Repository
+
+- `/src/dispense.py`        – Updated `DispenseEvent` class + invariant checker function
+- `/tests/test_requirements.py` – Requirement-driven unit tests
+- `README.md`               – This file
+- `questionnaire.pdf`       – Completed background questionnaire
+- `task1.md`                – Elicitation questions
+- `task2.md`                – Requirement classification
 
 This document links **system rules → constraints/invariants → requirement-driven tests**, ensuring each requirement is directly validated through testing.
